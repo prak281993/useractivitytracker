@@ -1,0 +1,113 @@
+{
+	"ok": true,
+	"members": [
+		{
+			"id": 1,
+			"real_name": "Egon Spengler",
+			"tz": "America/Los_Angeles",
+			"activity_periods": [
+				{
+					"activity": "Swimming",
+					"start_time": "Feb 1 2020  1:33PM",
+					"end_time": "Feb 1 2020 1:54PM"
+				},
+				{
+					"activity": "Dancing",
+					"start_time": "Mar 1 2020  11:11AM",
+					"end_time": "Mar 1 2020 2:00PM"
+				},
+				{
+					"activity": "Cooking",
+					"start_time": "Mar 16 2020  5:33PM",
+					"end_time": "Mar 16 2020 8:02PM"
+				}
+			]
+		},
+		{
+			"id": 2,
+			"real_name": "Clark Kent",
+			"tz": "America/Metropolis",
+			"activity_periods": [
+				{
+					"activity": "Conference",
+					"start_time": "Jan 30 2020  1:33PM",
+					"end_time": "Feb 28 2020 1:54PM"
+				},
+				{
+					"activity": "Atending conference",
+					"start_time": "Mar 16 2020  5:33PM",
+					"end_time": "Mar 16 2020 8:02PM"
+				},
+				{
+					"activity": "Birthday Celebration",
+					"start_time": "Apr 1 2020  12:00AM",
+					"end_time": "Apr 1 2020 2:00AM"
+				},
+				{
+					"activity": "Dinner",
+					"start_time": "Apr 12 2020  11:11AM",
+					"end_time": "Apr 12 2020 2:00PM"
+				},
+				{
+					"activity": "Louis Lane meeting",
+					"start_time": "Apr 25 2020 09:11AM",
+					"end_time": "Apr 25 2020 12:00PM"
+				},
+				{
+					"activity": "Swimming",
+					"start_time": "May 25 2020 6:33PM",
+					"end_time": "May 25 2020 8:00PM"
+				}
+			]
+		},
+		{
+			"id": 3,
+			"real_name": "Glinda Southgood",
+			"tz": "Asia/Kolkata",
+			"activity_periods": [
+				{
+					"activity": "Sleeping",
+					"start_time": "Feb 1 2020  12:00AM",
+					"end_time": "Feb 1 2020 06:00AM"
+				},
+				{
+					"activity": "Swimming",
+					"start_time": "Mar 1 2020  11:11AM",
+					"end_time": "Mar 1 2020 2:00PM"
+				},
+				{
+					"activity": "Lunch",
+					"start_time": "Mar 16 2020  5:33PM",
+					"end_time": "Mar 16 2020 8:02PM"
+				},
+				{
+					"activity": "Dinner",
+					"start_time": "Mar 16 2020  09:00PM",
+					"end_time": "Mar 16 2020 09:30PM"
+				}
+			]
+		},
+		{
+			"id": 4,
+			"real_name": "Bruce Wayne",
+			"tz": "America/Gotham",
+			"activity_periods": [
+				{
+					"activity": "Conference",
+					"start_time": "Feb 1 2020  1:33PM",
+					"end_time": "Feb 1 2020 1:54PM"
+				},
+				{
+					"activity": "Renumeration of backyard",
+					"start_time": "May 1 2020  11:11AM",
+					"end_time": "May 1 2020 2:00PM"
+				},
+				{
+					"activity": "Sleeping",
+					"start_time": "May 16 2020  12:00AM",
+					"end_time": "May 16 2020 03:00AM"
+				}
+			]
+		}
+	]
+}

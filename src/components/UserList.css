@@ -1,0 +1,73 @@
+.users {
+    width: 100vw;
+    height: 100vh;
+    background: #008040;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user_content h2{
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+}
+
+.user_list {
+    width: 600px;
+    padding: 10px;
+    border-radius: 10px;
+    background: #008040;
+    box-shadow: -29px 29px 57px #005f2f, 29px -29px 57px #00a151;
+    box-sizing: border-box;
+}
+
+.user_list .list_items {
+    display: flex;
+    margin: 10px 0;
+    transition: all 0.5s;
+    padding: 20px 30px;
+    color: #fff;
+    border-radius: 10px;
+    background: linear-gradient(315deg, #008944, #00733a);
+    box-shadow: -12px -12px 24px #006834, 12px 12px 24px #00984c;
+}
+
+.user_list .headers {
+    display: flex;
+    margin: 10px 0;
+    padding: 20px 30px;
+    color: #fff;
+}
+
+
+.user_list .list_items span:nth-child(1),
+.user_list .headers span:nth-child(1) {
+    width: 30px;
+}
+
+.user_list .list_items span:nth-child(2),
+.user_list .headers span:nth-child(2) {
+    width: 200px;
+}
+
+.user_list .list_items span:nth-child(3),
+.user_list .headers span:nth-child(3) {
+    width: 200px;
+}
+
+.user_list .list_items span:nth-child(4),
+.user_list .headers span:nth-child(4) {
+    width: 100px;
+}
+
+.user_list .list_items:hover {
+    cursor: pointer;
+    transform: scale(1.04);
+    background: linear-gradient(145deg, #00733a, #008944);
+    box-shadow: 12px 12px 24px #006834, -12px -12px 24px #00984c;
+}
+
+.user_list .list_items:active {
+    transform: scale(1);
+}

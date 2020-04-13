@@ -1,0 +1,80 @@
+.all_activities {
+    display: flex;
+}
+
+.all_activities .activity_list {
+    box-sizing: border-box;
+    padding: 10px;
+    width: 450px;
+}
+
+.all_activities .activity_list .list_items {
+    padding: 10px 20px;
+    color: #fff;
+    background: linear-gradient(to right bottom, rgba(180, 9, 171, 0.8), rgba(9, 126, 180, 0.8));
+    position: relative;
+}
+
+.all_activities .activity_list .list_items:not(:first-child) {
+    margin-top: 10px;
+}
+
+.all_activities .activity_list .list_items:nth-child(even) {
+    background: linear-gradient(to left top, rgba(180, 9, 171, 0.8),rgba(9, 126, 180, 0.8))
+}
+
+/* .all_activities .activity_list .list_items:nth-child(even)::before {
+    content: '';
+    background: rgba(180, 9, 95);
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    bottom: 100%;
+    margin-left:-40px;
+}
+
+.all_activities .activity_list .list_items:nth-child(odd)::before{
+    content: '';
+    background: rgba(132, 9, 180);
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    bottom: 100%;
+    margin-left:-40px;
+} */
+
+/* .all_activities .activity_list .list_items:nth-child(1)::before{
+    content: '';
+    background: transparent;
+} */
+
+.all_activities .activity_list .list_items h2 {
+    margin-top: 0;
+    text-align: center;
+    color: #d0d5e6;
+    font-size: 25px;
+}
+
+.all_activities .activity_list .list_items h2 span {
+    color: #fff;
+}
+
+.all_activities .activity_list .list_items .duration {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -10px;
+}
+
+.all_activities .activity_list .list_items .duration span {
+    color: #d0d5e6;
+    font-size: 16px;
+    display: block;
+}
+
+.all_activities .activity_list .list_items .duration span p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    display: inline;
+}
